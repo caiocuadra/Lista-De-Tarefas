@@ -113,6 +113,7 @@ html,body{
 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .box-tarefas{
+	overflow-y: auto;
 	width: 400px;
 	height: 200px;
 	background-color: white;
