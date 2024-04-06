@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+}
+
+html,body{
+	overflow-x: hidden;
+	height: 100%;
+    scroll-padding-top: 200px;
+    scroll-behavior: smooth;
+    
+}
+.center{
+	max-width: 1280px;
+	padding:0 2%;
+	margin:0 auto;
+}
+.w33{
+	width: 33.3%;
+}
+
+.w50{
+	padding:0 10px;
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.box{
+	width: 550px;
+	height: 400px;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box h2{
+	position: relative;
+	font-size: 20px;
+	left: 50px;
+	top: 30px;
+}
+.box hr{
+	width: 30%;
+	height: 5px;
+	background-color: black;
+	border: none;
+	position: relative;
+	left: 53px;
+	top: 35px;
+}
+
+.form-tarefa{
+	width: 450px;
+	height: 300px;
+	background-color: #cfd8dc;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box-form-tarefa{
+	position: relative;
+	top: 20px;
+}
+#tarefa-txt{
+	width: 300px;
+	height: 35px;
+	font-family: "Lato", sans-serif;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-right: 8px;
+}
+#enviar{
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.box-tarefas{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+	
+}
+#box-tarefa{
+	position: relative;
+	display: flex;
+	max-height: 30px;
+	text-align: start !important;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+#box-tarefa span{
+	position: relative;
+	background-color: #cfd8dc;
+	padding-top: 3px;
+	width: 300px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	max-width: 300px;
+	top: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+}
+#box-tarefa button{
+	position: relative;
+	top: 5px;
+	margin-left: 5px;
+	width: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	background-color: #cfd8dc;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+}
