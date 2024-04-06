@@ -20,7 +20,8 @@ $(function(){
             if(localStorage.getItem("tarefa-"+index)){
                 continue;
             }else{
-                localStorage.setItem("tarefa-"+index, tarefaTexto.value);
+                var valor = $('#tarefa-txt')
+                localStorage.setItem("tarefa-"+index, valor.val());
                 location.reload();
                 break;
             }
