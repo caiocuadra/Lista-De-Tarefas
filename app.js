@@ -12,7 +12,7 @@ function apagarTarefa(item){
     localStorage.removeItem(""+item);
 }
 
-window.onload(function(){
+
     for (let index = 0; index < 100; index++) {
         if(localStorage.getItem("tarefa-"+index)){
             const item = "tarefa-"+index;
@@ -24,7 +24,7 @@ window.onload(function(){
         }
         
     }
-});
+
 
 
 
