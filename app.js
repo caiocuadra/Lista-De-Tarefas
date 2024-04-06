@@ -12,19 +12,6 @@ function apagarTarefa(item){
     localStorage.removeItem(""+item);
 }
 
-function adicionaTarefa(elemento){
-    for (let index = 0; index < 100; index++) {
-        if(localStorage.getItem("tarefa-"+index)){
-            continue;
-        }else{
-            localStorage.setItem("tarefa-"+index, tarefaTexto.value);
-            location.reload();
-            break;
-        }
-    }
-    
-
-}
 
 for (let index = 0; index < 100; index++) {
     if(localStorage.getItem("tarefa-"+index)){
