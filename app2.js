@@ -26,4 +26,5 @@ $(function(){
             }
         }
     });
+    console.log("opa");
 })
