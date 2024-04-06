@@ -11,10 +11,6 @@ $(function(){
         
     }
 
-    $('#apaga').on("click", function(){
-        alert("oi");
-    });
-
     $('#enviar').on("click", function(){
         for (let index = 0; index < 100; index++) {
             if(localStorage.getItem("tarefa-"+index)){
@@ -27,5 +23,4 @@ $(function(){
             }
         }
     });
-    console.log("opa");
 })
